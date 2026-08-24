@@ -1924,7 +1924,7 @@ var showpostdate = true;
 var showpostsummary = true;
 var numchars = 150;
 </script>
-<script src="/feeds/posts/default/-/Movie Review?orderby=published&alt=json-in-script&callback=autoslide"></script>]]></b:widget-setting>
+<script src="/feeds/posts/default/-/Travel?orderby=published&alt=json-in-script&callback=autoslide"></script>]]></b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -1967,10 +1967,10 @@ var numchars = 150;
     <b:widget-settings>
       <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEiVpq3zzyHUDCDMXY1uEMycBmqXe_jxiHxjfDLJOMy9hJOq7-Bz9ZUTIH438WMs4Hf0NyEl-K9VelOJ5YHzLv5v7M5ClNsu7IaFfu6kl8X9brr9rR7-s54F0lRFaSt5R6VBpSPQ8h8YSsLmKLmeJO5k2j7sykzWU2jmqkSML5xN-8RsMl_ldDZP-Wa2WMo=s105</b:widget-setting>
       <b:widget-setting name='displayHeight'>105</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>1320</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>1625</b:widget-setting>
       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
       <b:widget-setting name='displayWidth'>105</b:widget-setting>
-      <b:widget-setting name='link'>https://renique-oddthemes.blogspot.com/search/label/Travel</b:widget-setting>
+      <b:widget-setting name='link'>https://wenchunlife.blogspot.com/search/label/Travel</b:widget-setting>
       <b:widget-setting name='caption'>travel</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
@@ -1989,40 +1989,14 @@ var numchars = 150;
     <b:include name='quickedit'/>
   </b:includable>
   </b:widget>
-  <b:widget id='Image1' locked='false' title='Adventure' type='Image'>
-    <b:widget-settings>
-      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEhEuOn0vsPhVUjcWbalJuuIStfzWyFqbuhuo4HJWPngeQMHEqEg-ZpMZTYHo2AqnJcPB37KwJoX0FP50Eo_poUJ4VYxOadO-GAnDYQWTxHj8UrqlRysNglOFYNFZWmwXyAV-qfI8gzijax8X4QGjpDm59Md4YAY0QMn4Upyh_AQa-s7P8XW8yqot35VTUs=s105</b:widget-setting>
-      <b:widget-setting name='displayHeight'>105</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>1320</b:widget-setting>
-      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-      <b:widget-setting name='displayWidth'>105</b:widget-setting>
-      <b:widget-setting name='link'>https://renique-oddthemes.blogspot.com/search/label/Adventure</b:widget-setting>
-      <b:widget-setting name='caption'/>
-    </b:widget-settings>
-    <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-      <b:tag cond='data:link' expr:href='data:link' name='a'>
-        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:tag>
-      <br/>
-      <b:if cond='data:caption'>
-        <span class='caption'><data:caption/></span>
-      </b:if>
-    </div>
-    <b:include name='quickedit'/>
-  </b:includable>
-  </b:widget>
-  <b:widget id='Image8' locked='false' title='Life Reflections' type='Image'>
+  <b:widget id='Image8' locked='false' title='Life' type='Image'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEizye7G2gdmakHWgkA6aKEwBcsDDGvydJChQljuLhrW8iVjWSytZJwDdJs50TRN58ENW67cwS276hH3gipWQ-NX5B3ky2IICvEDkiHCJtVB1HzpiZVzIPESjdBcQAVAZ55jMCHTSTDQW6yQHhMLjz4BXakswDR7en-Nrm__8M5Shfuc1jGYurTUwv0QI-Y=s105</b:widget-setting>
       <b:widget-setting name='displayHeight'>105</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>1320</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>1625</b:widget-setting>
       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
       <b:widget-setting name='displayWidth'>105</b:widget-setting>
-      <b:widget-setting name='link'>https://renique-oddthemes.blogspot.com/search/label/Life Reflections</b:widget-setting>
+      <b:widget-setting name='link'>https://wenchunlife.blogspot.com/search/label/Life</b:widget-setting>
       <b:widget-setting name='caption'/>
     </b:widget-settings>
     <b:includable id='main'>
@@ -2041,119 +2015,15 @@ var numchars = 150;
     <b:include name='quickedit'/>
   </b:includable>
   </b:widget>
-  <b:widget id='Image7' locked='false' title='Technology' type='Image'>
+  <b:widget id='Image7' locked='false' title='Tech' type='Image'>
     <b:widget-settings>
       <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEj6u6jfDWlb4Hyb2StJjJBcyLX9OwZpVKkB72ME_iVKRD46mw2RS5T-npj3lC2csh_R2dMVnCrb_EaKqQ9Z7o1B_MvmX1XhAVN54tqFy_kNtBw3eam_XTDWGMdAyP0UGAJUbRHO--KzCwTCUHlJJLq8r4HtnFAtp4Hzdfa0J88lJfu9Vgbz9zvPnZTLOU4=s105</b:widget-setting>
       <b:widget-setting name='displayHeight'>105</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>1320</b:widget-setting>
+      <b:widget-setting name='sectionWidth'>1625</b:widget-setting>
       <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
       <b:widget-setting name='displayWidth'>105</b:widget-setting>
-      <b:widget-setting name='link'>https://renique-oddthemes.blogspot.com/search/label/Technology</b:widget-setting>
+      <b:widget-setting name='link'>https://wenchunlife.blogspot.com/search/label/Tech</b:widget-setting>
       <b:widget-setting name='caption'/>
-    </b:widget-settings>
-    <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-      <b:tag cond='data:link' expr:href='data:link' name='a'>
-        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:tag>
-      <br/>
-      <b:if cond='data:caption'>
-        <span class='caption'><data:caption/></span>
-      </b:if>
-    </div>
-    <b:include name='quickedit'/>
-  </b:includable>
-  </b:widget>
-  <b:widget id='Image5' locked='false' title='Food' type='Image'>
-    <b:widget-settings>
-      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEjNgvRGfcguRslJErlBUV-qa6BRjztNG-zn-xBk-w59RRVDbk6ejpFSjC8Eq73ZpFZG_OY1gu06oxEnjovLMmpwf8i0sPUstJ0Og7BC9dbFSueLZsznAirlkGLnjq_kTOHPYEkVHuTrXidAwLxjpy6uT4o9JopTCrZRTHfXjgJu-80bDjbBEGGdMkUSF6k=s105</b:widget-setting>
-      <b:widget-setting name='displayHeight'>105</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>1320</b:widget-setting>
-      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-      <b:widget-setting name='displayWidth'>105</b:widget-setting>
-      <b:widget-setting name='link'>https://renique-oddthemes.blogspot.com/search/label/Food</b:widget-setting>
-      <b:widget-setting name='caption'/>
-    </b:widget-settings>
-    <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-      <b:tag cond='data:link' expr:href='data:link' name='a'>
-        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:tag>
-      <br/>
-      <b:if cond='data:caption'>
-        <span class='caption'><data:caption/></span>
-      </b:if>
-    </div>
-    <b:include name='quickedit'/>
-  </b:includable>
-  </b:widget>
-  <b:widget id='Image6' locked='false' title='Movie Review' type='Image'>
-    <b:widget-settings>
-      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEhsj_vSl9KboMz5Fketr4IXpN7OynNFtnkJV1QitzrbOqp2cHxI7SrHkez8JvA4h6sMF3tshNpr0_MNE6U6_LhLHJ42ZxgVKkGZgvl45ZNAbGv9qw9S5YbAIoZ0pHshVRil7m7S7yN5mgJ-TBzsChqWv8SB5-KOvQ9AOg99hj23Q3rEJbBPFnTaxZ2g5Vk=s105</b:widget-setting>
-      <b:widget-setting name='displayHeight'>105</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>1320</b:widget-setting>
-      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-      <b:widget-setting name='displayWidth'>105</b:widget-setting>
-      <b:widget-setting name='link'>https://renique-oddthemes.blogspot.com/search/label/Movie Review</b:widget-setting>
-      <b:widget-setting name='caption'/>
-    </b:widget-settings>
-    <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-      <b:tag cond='data:link' expr:href='data:link' name='a'>
-        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:tag>
-      <br/>
-      <b:if cond='data:caption'>
-        <span class='caption'><data:caption/></span>
-      </b:if>
-    </div>
-    <b:include name='quickedit'/>
-  </b:includable>
-  </b:widget>
-  <b:widget id='Image3' locked='false' title='Book Reviews' type='Image'>
-    <b:widget-settings>
-      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEgLSO00vdCv471SlgbTvcTnZm9tMFFg8mPUpJnb4rAZ0fODGQ-yyDecHCUCm5TvFOHLQk9HqgP39RQN9ymF1K9yul1ofR5fgYh9svM7IL3zei0_GajEZ1nqgmZoj_zHV2-wTGjhv1yWz0zUlFnYSTDIIOCMtzJBaiLQRatG7O7-YQnfbEiJEEbd3YujpOw=s105</b:widget-setting>
-      <b:widget-setting name='displayHeight'>105</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>1320</b:widget-setting>
-      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-      <b:widget-setting name='displayWidth'>105</b:widget-setting>
-      <b:widget-setting name='link'>https://renique-oddthemes.blogspot.com/search/label/Book Reviews</b:widget-setting>
-      <b:widget-setting name='caption'/>
-    </b:widget-settings>
-    <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-      <b:tag cond='data:link' expr:href='data:link' name='a'>
-        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:tag>
-      <br/>
-      <b:if cond='data:caption'>
-        <span class='caption'><data:caption/></span>
-      </b:if>
-    </div>
-    <b:include name='quickedit'/>
-  </b:includable>
-  </b:widget>
-  <b:widget id='Image2' locked='false' title='Relationships' type='Image'>
-    <b:widget-settings>
-      <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEiEznMyySXXT8MvaQJcVS-nZl0MrooYHlkbt3I7XNy2R9rXgSrE4DEoq9xfTuSa0xTeV7DOmwQufMBNK7l5BcR5UQ3kpnyAOybisbX6QI4vZURt944DBfBuLEjW12SRl0ilnvZ8NkQkoVPvRD6Bw_luLsyv5hsMtlLToX5o-8mXFHavd_BPG3_IYCmGMP0=s105</b:widget-setting>
-      <b:widget-setting name='displayHeight'>105</b:widget-setting>
-      <b:widget-setting name='sectionWidth'>1320</b:widget-setting>
-      <b:widget-setting name='shrinkToFit'>false</b:widget-setting>
-      <b:widget-setting name='displayWidth'>105</b:widget-setting>
-      <b:widget-setting name='link'>https://renique-oddthemes.blogspot.com/search/label/Relationships</b:widget-setting>
-      <b:widget-setting name='caption'>ghhfgfgh</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
     <b:if cond='data:title != &quot;&quot;'>
@@ -2183,7 +2053,7 @@ var numchars = 150;
 <b:section class='main' id='main' maxwidgets='' showaddelement='yes'>
   <b:widget id='HTML4' locked='false' title='Post(Grid/list - Not available in Free Version)' type='HTML' version='1'>
     <b:widget-settings>
-      <b:widget-setting name='content'>list</b:widget-setting>
+      <b:widget-setting name='content'>Grid</b:widget-setting>
     </b:widget-settings>
     <b:includable id='main'>
     <b:if cond='data:blog.pageType == &quot;archive&quot; or data:blog.pageType == &quot;index&quot;'>
@@ -2196,31 +2066,30 @@ var numchars = 150;
       </b:if>
         </b:includable>
   </b:widget>
-  <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='1'>
+  <b:widget id='Blog1' locked='true' title='網誌文章' type='Blog' version='1'>
     <b:widget-settings>
+      <b:widget-setting name='showDateHeader'>true</b:widget-setting>
       <b:widget-setting name='commentLabel'>Comments</b:widget-setting>
+      <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='showShareButtons'>true</b:widget-setting>
       <b:widget-setting name='authorLabel'>By</b:widget-setting>
-      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
-      <b:widget-setting name='timestampLabel'>-</b:widget-setting>
-      <b:widget-setting name='reactionsLabel'/>
-      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
-      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
-      <b:widget-setting name='showLocation'>false</b:widget-setting>
-      <b:widget-setting name='showTimestamp'>true</b:widget-setting>
-      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-      <b:widget-setting name='backlinksLabel'/>
-      <b:widget-setting name='showDateHeader'>true</b:widget-setting>
-      <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='showCommentLink'>true</b:widget-setting>
       <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='showAuthor'>false</b:widget-setting>
       <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
       <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
+      <b:widget-setting name='timestampLabel'>-</b:widget-setting>
+      <b:widget-setting name='reactionsLabel'/>
+      <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+      <b:widget-setting name='style.layout'>1x1</b:widget-setting>
       <b:widget-setting name='showLabels'>true</b:widget-setting>
+      <b:widget-setting name='showLocation'>false</b:widget-setting>
       <b:widget-setting name='postLabelsLabel'>Tags:</b:widget-setting>
+      <b:widget-setting name='showTimestamp'>true</b:widget-setting>
+      <b:widget-setting name='postsPerAd'>1</b:widget-setting>
       <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+      <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
       <b:widget-setting name='showInlineAds'>false</b:widget-setting>
       <b:widget-setting name='showReactions'>false</b:widget-setting>
     </b:widget-settings>
@@ -3198,6 +3067,32 @@ printRelatedLabels_thumbs();
 <div class='footer-wrap'>
 <div class='footerbox'>
   <b:section class='footer' id='footer' maxwidgets='' showaddelement='yes'>
+    <b:widget id='Image1' locked='false' title='' type='Image'>
+      <b:widget-settings>
+        <b:widget-setting name='displayUrl'>https://blogger.googleusercontent.com/img/a/AVvXsEhHlZv6HJUpCK8v35F6PUTP3Ja0XmBqVGvOm_yS08jiVRTGmyPHapr-S1YmHDYk6AwuE1GrY3RfTtUmDyksSbM4V0LUWofjPNJcmsSaamMF3al6huqv-LCSPit_kYWiVZG1PXnvnetZ5U55di8uXAekOa6DS-cBrJY_U5T4GCmH_JcEM9YWpNckQHXMmAaf=s1584</b:widget-setting>
+        <b:widget-setting name='displayHeight'>396</b:widget-setting>
+        <b:widget-setting name='sectionWidth'>1625</b:widget-setting>
+        <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
+        <b:widget-setting name='displayWidth'>1584</b:widget-setting>
+        <b:widget-setting name='link'/>
+        <b:widget-setting name='caption'/>
+      </b:widget-settings>
+      <b:includable id='main'>
+    <b:if cond='data:title != &quot;&quot;'>
+      <h2><data:title/></h2>
+    </b:if>
+    <div class='widget-content'>
+      <b:tag cond='data:link' expr:href='data:link' name='a'>
+        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
+      </b:tag>
+      <br/>
+      <b:if cond='data:caption'>
+        <span class='caption'><data:caption/></span>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
+  </b:includable>
+    </b:widget>
     <b:widget id='LinkList2' locked='false' title='' type='LinkList'>
       <b:widget-settings>
         <b:widget-setting name='shownum'>5</b:widget-setting>
