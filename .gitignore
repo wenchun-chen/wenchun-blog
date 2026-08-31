@@ -4,6 +4,9 @@ node_modules/
 # Claude Code local settings/cache (agent config, not project source)
 .claude/
 
+# Local MCP server config (machine-specific, not project source)
+.mcp.json
+
 # Playwright artifacts
 artifacts/
 test-results/
