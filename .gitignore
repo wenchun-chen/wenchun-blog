@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Claude Code local settings/cache (agent config, not project source)
+.claude/
+
+# Playwright artifacts
+artifacts/
+test-results/
+playwright-report/
