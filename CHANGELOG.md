@@ -6,6 +6,17 @@ The original template (**Renique** by **OddThemes**) is the baseline; entries be
 
 ---
 
+## 2026-09-02
+
+### feat: post series navigation
+
+- Added a `series-navigation` block on post-detail pages: for posts labeled `Tanzania` (Africa trip series), fetch that label's post feed via Blogger's Feed API, parse the `Day N` pattern out of each title, and render previous/next links scoped to that series
+- Hid the default `post-pager` whenever `series-navigation` renders (`.series-navigation ~ .post-pager { display: none; }`)
+- Added matching CSS for the new block (`.series-navigation`, `.series-heading`, `.series-links`, `.series-prev`, `.series-next`) and lightly restyled the existing `.post-pager` for visual consistency
+- Falls back to hiding the block if the feed request fails or the current post isn't found in the fetched series feed
+
+**Reason:** Blogger's built-in post-pager always orders posts by publish time across the whole blog. Once the Africa trip series posts were interleaved with an unrelated intro post, the pager's previous/next no longer matched the series' actual story order (e.g. "Day 2" pointed "next" to "Day 1" and "previous" to the unrelated intro post), which was confusing for readers following the series in order.
+
 ## 2026-08-24
 
 ### Header
