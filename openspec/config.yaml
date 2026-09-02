@@ -1,5 +1,21 @@
 schema: spec-driven
 
+context: |
+  # 語言與寫作規範 (Language & Blogging Policy)
+  - This is a personal blog project. The specifications will be used to generate Chinese technical blog posts in the future.
+  - Structure & Technical alignment (Folders, API paths, DB schema, OpenSpec tags) MUST be in English.
+  - Descriptions, User Stories, Background, and Business Rules MUST be in Traditional Chinese (zh-TW).
+  
+  # 教學文優化提示 (Blog-Friendly Enhancements)
+  - In 'Background' or 'Business Rules', please deeply document the "WHY" (Why do we change this? What was the pain point?).
+  - When archiving changes, ensure the 'Delta Specs' clearly contrast what was ADDED, MODIFIED, or REMOVED in plain Traditional Chinese, making it easy to convert into a step-by-step tutorial later.
+
+rules:
+  # 規定當執行 /opsx:archive (封存變更) 時，AI 必須自動執行的延伸任務
+  archive:
+    - "【自動同步 CHANGELOG】封存變更時，AI 必須自動讀取本次改動，並以『全英文（English）』與 Conventional Commits 規範（如 feat:, fix:）更新專案根目錄的 `CHANGELOG.md`。"
+    - "【自動建立截圖目錄】封存變更時，AI 必須在該變更對應的規格目錄下，自動建立一個名為 `screenshots/` 的空資料夾（例如 `openspec/specs/navbar-ui/screenshots/`），用以存放 Playwright 擷取的教學素材圖。"
+    
 # Project context (optional)
 # This is shown to AI when creating artifacts.
 # Add your tech stack, conventions, style guides, domain knowledge, etc.
